@@ -4,6 +4,9 @@
 		<title>myPath</title>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script> 
+        <script src = "assets/js/script.js"></script>
 	</head>
 
 	<body>
@@ -13,12 +16,72 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="members.html">Members</a></li>
+					<li><img id = "logo" src="assets/img/account.png" width = "35"></li>
 				</ul>
 			</nav>
 			<h2><a href = "index.html">myPath</a></h2>
 		</header>
 
-		<section class = "section" id = "carousel">
+<!-- Page Wrapper, Consisting of All the Sections -->
+        <div class = "page-wrapper">
+            <!-- Carousel Section -->
+            <section class = "section" id = "carousel-section"> 
+                <div class = "carousel-container">
+                <!-- Question 2: Carousel Code Here -->
+                    <div id = "carousel">
+                        <div class="carousel-item">
+                            <div class = "quote">
+                                <div class="images"><img src="assets/img/berkeley.jpg" width="1080" height="auto"></div>
+                                <div class="colleges">
+                                <div>Steve Jobs</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class = "quote">
+                                <div class="images"><img src="assets/img/harvard.jpg" width="1080"></div>
+                                <div class = "colleges">
+                                <div>Abraham Lincoln</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class = "quote">
+                                <div class = "images"><img src="assets/img/stanford.jpg" width="1080"></div>
+                                <div class = "colleges">
+                                    <div>Albert Einstein</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class = "quote">
+                                <div class="images"><img src="assets/img/mit.jpg" width="1080"></div>
+                                <div class = "colleges">
+                                    <div>Muhammad Ali</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- End Question 2 Here (Use as many lines as needed, but don't add code below this point)-->
+                    <div id="carousel-prev">
+                        <img class="img-scaled" src="assets/img/left.png" />
+                    </div>
+                    <div id="carousel-next">
+                        <img class="img-scaled" src="assets/img/right.png" />
+                    </div>
+                </div>
+            </section>
+            <!-- Name Section -->
+            <section class = "section" id = "name-section">
+                <div class = "text" id = "name-text">
+                    Your Journey Begins Here
+                </div>
+            </section>
+            
+        </div>
+		<!-- <section class = "section" id = "carousel">
 			
 			<div class = "carousel container">
 				<div id = "carousel">
@@ -45,7 +108,7 @@
 				</div>
 			</div>
 
-		</section>
+		</section> -->
 
 
 	</body>

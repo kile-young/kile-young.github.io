@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+header {
+	position: relative;
+	background-color: #0066cc;
+	color: white;
+	height: 10%;
+}
+
+header nav {
+	position: absolute;
+	right: 100px;
+}
+
+header nav ul {
+	padding: 0;
+	margin: 0;
+	margin-right: 30px;
+}
+
+header nav li {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	padding: 20px;
+
+}
+
+h2 {
+	margin-left: 100px;
+	padding: 20px;
+}
+
+a { 
+	color:white; 	
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+body {
+	font-family: 'Montesserat', sans-serif;
+	background-color: #D0D0D0;
+	margin: 0;
+	padding: 0;
+}
