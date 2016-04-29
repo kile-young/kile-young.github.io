@@ -17,6 +17,18 @@ $('#carousel-prev').click(function() {
     $('#carousel').css('margin-left', marginL+1080);
   }
 })
-  
 
+
+$('.sectionp').hover(function() {
+  if ($('.pic').hasClass('enlarge')) {
+    $('.pic').removeClass('enlarge');
+    // $('.pictext').removeClass('color-change')
+  } else {
+    $('.pic').addClass('enlarge');
+    // $('.pictext').addClass('color-change')
+
+  }
+  
+})
 });
+
